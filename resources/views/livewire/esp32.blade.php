@@ -1,17 +1,17 @@
 <div>
     @vite('resources/css/app.css')
-    {{-- {{dd($response)}}
-<div class="flex w-full h-screen justify-center flex-col items-center space-y-5">
-    <h1>{{ $response['respuesta'] }}</h1>
-    <h1>{{ $response['final'] }}</h1>
+    {{-- {{ dd($response) }} --}}
+    <div class="flex w-full h-screen justify-center flex-col items-center space-y-5">
+        <h1>{{ $response['respuesta'] }}</h1>
+        <h1>{{ $response['final'] }}</h1>
 
 
-    {{-- <button wire:click="hola()">refresh</button> --}}
-    {{-- <button wire:click="hola()"
-        class="px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-        refresh
-    </button>
-</div> --}}
+        <button wire:click="hola()">refresh</button>
+        <button wire:click="hola()"
+            class="px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+            refresh
+        </button>
+    </div>
 
     <br />
     <a href="https://www.material-tailwind.com/magic-ai" target="_blank" class="ml-2">Generated with <b>Magic AI
