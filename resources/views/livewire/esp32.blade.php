@@ -1,5 +1,4 @@
 <div>
-    @vite('resources/css/app.css')
     {{-- {{dd($response)}} --}}
 
     <div class="bg-slate-400 w-full h-screen flex justify-center items-center">
@@ -94,5 +93,14 @@
                 <p>{{ $response['temperatura'] }} °C</p>
             </div>
         </div>
+        
     </div>
+    <script>
+        function holaJs() {
+            @this.hola();
+        }
+
+        // Ejecuta la función holaJs cada 5000 milisegundos (5 segundos)
+        setInterval(holaJs, 1000);
+    </script>
 </div>
