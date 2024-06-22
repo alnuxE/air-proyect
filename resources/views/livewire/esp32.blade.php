@@ -93,7 +93,7 @@
                 <p>{{ $response['temperatura'] }} °C</p>
             </div>
         </div>
-        
+
     </div>
     <script>
         function holaJs() {
@@ -101,6 +101,6 @@
         }
 
         // Ejecuta la función holaJs cada 5000 milisegundos (5 segundos)
-        setInterval(holaJs, 1000);
+        setInterval(holaJs, 100);
     </script>
 </div>
