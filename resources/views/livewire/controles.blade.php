@@ -4,7 +4,7 @@
         Controles Led
     </h1>
 
-    <div class="w-auto h-auto p-3 rounded-3xl flex flex-col items-center justify-center gap-y-5 bg-slate-700">
+    <div class="w-auto h-auto p-5 rounded-3xl flex flex-col items-center justify-center gap-y-5 bg-slate-700">
         <svg class="w-20" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#000000">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -19,7 +19,7 @@
             class="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
             <span class="relative">Encender</span>
         </button>
-        <button class="ledROff"
+        <button wire:click="ledROff"
             class="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
             <span class="relative">Apagar</span>
         </button>
