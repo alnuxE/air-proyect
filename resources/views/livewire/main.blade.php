@@ -1,6 +1,6 @@
 <div>
     {{-- menu --}}
-    <nav class="w-full bg-slate-700 fixed z-0">
+    <nav class="w-full bg-slate-700 fixed z-100">
         <div class="h-20 flex justify-between items-center">
             <div>
                 <svg id="btn" class="w-7 ml-5 cursor-pointer" viewBox="0 0 20 20" version="1.1"

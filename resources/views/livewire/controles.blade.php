@@ -16,12 +16,12 @@
         </svg>
         <h1 class="text-white mb-4 text-2xl text-center font-extrabold leading-none"> Led Rojo</h1>
         <button wire:click='ledROn'
-            class="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
-            <span class="relative">Encender</span>
+            class="btn overflow-hidden  w-64 bg-red-500 text-white py-4 px-4 rounded-xl font-bold ">
+            <span>Encender</span>
         </button>
         <button wire:click="ledROff"
-            class="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
-            <span class="relative">Apagar</span>
+            class="btn overflow-hidden  w-64 bg-red-500 text-white py-4 px-4 rounded-xl font-bold ">
+            <span>Apagar</span>
         </button>
     </div>
 
@@ -37,11 +37,11 @@
         </svg>
         <h1 class="text-white mb-4 text-2xl text-center font-extrabold leading-none"> Led Amarillo</h1>
         <button wire:click='ledAOn'
-            class="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
+            class="btn overflow-hidden  w-64 bg-yellow-500 text-white py-4 px-4 rounded-xl font-bold ">
             <span class="relative">Encender</span>
         </button>
         <button wire:click="ledAOff"
-            class="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
+            class="btn overflow-hidden  w-64 bg-yellow-500 text-white py-4 px-4 rounded-xl font-bold ">
             <span class="relative">Apagar</span>
         </button>
     </div>
@@ -58,11 +58,11 @@
         </svg>
         <h1 class="text-white mb-4 text-2xl text-center font-extrabold leading-none"> Led Verde</h1>
         <button wire:click='ledVOn'
-            class="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
+            class="btn overflow-hidden  w-64 bg-green-500 text-white py-4 px-4 rounded-xl font-bold ">
             <span class="relative">Encender</span>
         </button>
         <button wire:click="ledVOff"
-            class="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
+            class="btn overflow-hidden  w-64 bg-green-500 text-white py-4 px-4 rounded-xl font-bold ">
             <span class="relative">Apagar</span>
         </button>
     </div>
