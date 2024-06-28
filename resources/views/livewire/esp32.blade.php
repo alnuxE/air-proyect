@@ -31,8 +31,8 @@
                             fill="#333333"></path>
                     </g>
                 </svg>
-                <h1>Calidad del aire</h1>
-                <p>{{ $response['calidad'] }} ppm</p>
+                <h1 class="text-white">Calidad del aire</h1>
+                <p class="text-white">{{ $response['calidad'] }} ppm</p>
             </div>
             <div
                 class="w-1/3 max-w-60 h-40 bg-slate-600 text-center py-5 rounded-xl flex flex-col justify-center items-center shadow-lg">
@@ -71,8 +71,8 @@
                             fill="#144884"></path>
                     </g>
                 </svg>
-                <h1>Humedad</h1>
-                <p>{{ $response['humedad'] }} %</p>
+                <h1 class="text-white">Humedad</h1>
+                <p class="text-white">{{ $response['humedad'] }} %</p>
             </div>
             <div
                 class="w-1/3 max-w-60 h-40 bg-slate-600 text-center py-5 rounded-xl flex flex-col justify-center items-center shadow-lg">
@@ -94,68 +94,12 @@
                             fill="#000000"></path>
                     </g>
                 </svg>
-                <h1>Temperatura</h1>
-                <p>{{ $response['temperatura'] }} °C</p>
+                <h1 class="text-white">Temperatura</h1>
+                <p class="text-white">{{ $response['temperatura'] }} °C</p>
             </div>
         </div>
     </div>
 
-    {{-- grafica humedad --}}
-
-    <div class="bg-slate-400 w-full h-auto pb-20 flex flex-col justify-center items-center gap-10 px-5 shadow-2xl">
-        <h1
-            class="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            Humedad
-        </h1>
-
-        <div class="bg-white p-8 rounded-lg shadow-lg w-full">
-            <h2 class="text-2xl font-bold mb-4">Humedad vs. Días</h2>
-            <canvas id="humidityDaysChart" class="w-full"></canvas>
-        </div>
-    </div>
-
-    {{-- {grafica temperatura} --}}
-
-    <div class="bg-slate-400 w-full h-auto pb-20 flex flex-col justify-center items-center gap-10 px-5 shadow-2xl">
-        <h1
-            class="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            Temperatura
-        </h1>
-
-        <div class="bg-white p-8 rounded-lg shadow-lg w-full">
-            <h2 class="text-2xl font-bold mb-4">Temperatura vs. Días</h2>
-            <canvas id="temperatureDaysChart" class="w-full"></canvas>
-        </div>
-    </div>
-
-    {{-- {grafica Calidad Aire} --}}
-
-    <div class="bg-slate-400 w-full h-auto pb-20 flex flex-col justify-center items-center gap-10 px-5 shadow-2xl">
-        <h1
-            class="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            Calidad del Aire
-        </h1>
-
-        <div class="bg-white p-8 rounded-lg shadow-lg w-full">
-            <h2 class="text-2xl font-bold mb-4">Calidad del Aire vs. Días</h2>
-            <canvas id="airQualityDaysChart" class="w-full"></canvas>
-        </div>
-    </div>
-
-
-    {{-- {grafica de regresion lineal} --}}
-
-    <div class="bg-slate-400 w-full h-auto pb-20 flex flex-col justify-center items-center gap-10 px-5 shadow-2xl">
-        <h1
-            class="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-             Dispersion de datos
-        </h1>
-
-        <div class="bg-white p-8 rounded-lg shadow-lg w-full">
-            <h2 class="text-2xl font-bold mb-4">Temperatura, Humedad y Calidad del Aire vs. Días</h2>
-            <canvas id="multiLineChart" class="w-full"></canvas>
-        </div>
-    </div>
 
 
 
@@ -169,11 +113,5 @@
         // Ejecuta la función holaJs cada 5000 milisegundos (5 segundos)
         setInterval(holaJs, 1000);
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="{{ asset('js/humedad.js') }}"></script>
-    <script src="{{ asset('js/temperatura.js') }}"></script>
-    <script src="{{ asset('js/calidad.js') }}"></script>
-    <script src="{{ asset('js/regresion.js') }}"></script>
-
 
 </div>

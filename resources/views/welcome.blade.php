@@ -9,7 +9,7 @@
 
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-       @livewire('Esp32')
+       @livewire('main')
        @livewireScripts
     </body>
 </html>

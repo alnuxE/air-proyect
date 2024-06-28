@@ -1,3 +1,4 @@
+
 const ctx3 = document.getElementById('airQualityDaysChart').getContext('2d');
 const airQualityDaysChart = new Chart(ctx3, {
     type: 'line',
