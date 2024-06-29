@@ -31,7 +31,6 @@
             <li class="h-12"><a class="w-full text-lg font-extrabold text-white h-5" href="{{route('principal')}}">Principal</a></li>
             <li class="h-12"><a class="text-lg font-extrabold text-white" href="{{route('datos')}}">Datos en Tiempo Real</a></li>
             <li class="h-12"><a class="text-lg font-extrabold text-white" href="{{route('graficas')}}">Historial</a></li>
-            <li class="h-12"><a class="text-lg font-extrabold text-white" href="#">Pronostico</a></li>
             <li class="h-12"><a class="text-lg font-extrabold text-white" href="{{route('controles')}}">Controles</a></li>
         </ul>
     </nav>

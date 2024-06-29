@@ -14,14 +14,14 @@ class Esp32 extends Component
 
     public function mount()
     {
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":00}'
         ]);
         $this->response = $response->json(); // Extrae los datos JSON de la respuesta
     }
 
     function hola(){
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":1}'
         ]);
         $this->response = $response->json(); // Extrae los datos JSON de la respuesta

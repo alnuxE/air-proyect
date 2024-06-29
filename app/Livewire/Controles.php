@@ -11,7 +11,7 @@ class Controles extends Component
 
     public function mount()
     {
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":00}'
         ]);
         $this->response = $response->json(); // Extrae los datos JSON de la respuesta
@@ -19,14 +19,14 @@ class Controles extends Component
 
     public function ledROn()
     {
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":1}'
         ]);
     }
 
     public function ledROff()
     {
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":2}'
         ]);
     }
@@ -34,28 +34,28 @@ class Controles extends Component
 
     public function ledVOn()
     {
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":3}'
         ]);
     }
 
     public function ledVOff()
     {
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":4}'
         ]);
     }
 
     public function ledAOn()
     {
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":5}'
         ]);
     }
 
     public function ledAOff()
     {
-        $response = Http::get('http://192.168.0.150/getjson', [
+        $response = Http::get('http://192.168.0.152/getjson', [
             'json' => '{"numero":6}'
         ]);
     }

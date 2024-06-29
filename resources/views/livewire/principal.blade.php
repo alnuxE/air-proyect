@@ -6,7 +6,7 @@
         Bienvenido a Air Proyect
     </h1>
     <p class="mb-6 text-lg font-normal text-slate-300 text-center">
-        El software personalizado para pronostico y calidad del aire
+        El software personalizado para el control ambiental de entornos
     </p>
     <svg class="w-24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
